@@ -5,9 +5,15 @@
 
 
 body {
+  font-family: Georgia, serif;
+  font-size: 16px;
   background-color: #921b27;
 }
-
+@media (min-width: 1200px) {
+  body {
+    font-size: 24px;
+  }
+}
 
 /* Header
   ====================================================== */
@@ -43,9 +49,15 @@ body {
 
 
 .painting {
-  margin-bottom: 30px;
-  padding: 3.5em;
+  margin-bottom: 1.3em;
+  padding: 1.3em;
   background-color: #fff;
+}
+@media (min-width: 1200px) {
+  .painting {
+    margin-bottom: 30px;
+    padding: 1.8em;
+  }
 }
 .painting__dimensions {
   margin-bottom: 0;
