@@ -40,3 +40,13 @@ body {
 
 /* Main
   ====================================================== */
+
+
+.painting {
+  margin-bottom: 30px;
+  padding: 3.5em;
+  background-color: #fff;
+}
+.painting__dimensions {
+  margin-bottom: 0;
+}
