@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="assets/stylesheets/main.css">
-    <script src="assets/javascripts/masonry.pkgd.min.js"></script>
     <title>Adrienn Besze Watercolors</title>
   </head>
   <body>
@@ -21,9 +20,9 @@
     </header>
 
     <div class="container">
-      <div class="row">
+      <div class="row grid">
 
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-6 col-xs-12 grid-item">
           <figure class="painting">
             <img class="img-responsive" src="assets/images/placeholders/colorful-heart_1160-637-by-Bedneyimages-Freepik.com.jpg" alt="Watercolor">
             <figcaption>
@@ -34,7 +33,7 @@
           </figure>
         </div>
 
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-6 col-xs-12 grid-item">
           <figure class="painting">
             <img class="img-responsive" src="assets/images/placeholders/colorful-heart_1160-637-by-Bedneyimages-Freepik.com.jpg" alt="Watercolor">
             <figcaption>
@@ -45,7 +44,7 @@
           </figure>
         </div>
 
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-6 col-xs-12 grid-item">
           <figure class="painting">
             <img class="img-responsive" src="assets/images/placeholders/colorful-heart_1160-637-by-Bedneyimages-Freepik.com.jpg" alt="Watercolor">
             <figcaption>
@@ -56,7 +55,7 @@
           </figure>
         </div>
 
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-6 col-xs-12 grid-item">
           <figure class="painting">
             <img class="img-responsive" src="assets/images/placeholders/colorful-heart_1160-637-by-Bedneyimages-Freepik.com.jpg" alt="Watercolor">
             <figcaption>
@@ -72,5 +71,20 @@
 
     <script src="assets/javascripts/jquery-1.12.4.min.js"></script>
     <script src="assets/javascripts/bootstrap.min.js"></script>
+    <script src="assets/javascripts/masonry.pkgd.min.js"></script>
+    <script src="assets/javascripts/imagesloaded.pkgd.min.js"></script>
+    <script>
+      $(window).on('load', function() {
+        var $grid = $('.grid').imagesLoaded(function() {
+          // Init Masonry after all images have loaded.
+          $grid.masonry({
+            itemSelector:   '.grid-item',
+            columnWidth:    '.grid-item',
+            percentPosition: true,
+            transitionDuration: '0.6s'
+          });
+        });
+      });
+    </script>
   </body>
 </html>
