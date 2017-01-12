@@ -1,7 +1,12 @@
 /**
  * Project: Adrienn Besze Watercolors
  * Author: Lujan Fernaud
+ * Typographic Scale: 1.2 - http://www.modularscale.com/?20&px&1.2&web&text
  */
+
+
+/* Initial Settings and Helper Classes
+  ====================================================== */
 
 
 body {
@@ -14,6 +19,7 @@ body {
     font-size: 20px;
   }
 }
+
 
 /* Header
   ====================================================== */
