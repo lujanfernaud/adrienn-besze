@@ -53,6 +53,10 @@ body {
 /* Main
   ====================================================== */
 
+.grid-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 .painting {
   margin-bottom: 1.3em;
