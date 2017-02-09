@@ -54,8 +54,14 @@ body {
   ====================================================== */
 
 .grid-container {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@media (min-width: 767px) {
+  .grid-container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
 
 .painting {
@@ -66,7 +72,6 @@ body {
 @media (min-width: 1199px) {
   .painting {
     margin-bottom: 30px;
-    padding: 1.8em;
   }
 }
 .painting__title {
