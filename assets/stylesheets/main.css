@@ -59,6 +59,12 @@ body {
 }
 @media (min-width: 767px) {
   .grid-container {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+@media (min-width: 991px) {
+  .grid-container {
     padding-left: 3%;
     padding-right: 3%;
   }
