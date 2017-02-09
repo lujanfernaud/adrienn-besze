@@ -65,13 +65,13 @@ body {
 }
 
 .painting {
-  margin-bottom: 1.3em;
+  margin-bottom: 7%;
   padding: 6%;
   background-color: #fff;
 }
-@media (min-width: 1199px) {
+@media (min-width: 767px) {
   .painting {
-    margin-bottom: 30px;
+    margin-bottom: 30px; /* Same as gutter between paintings */
   }
 }
 .painting__title {
