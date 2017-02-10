@@ -82,6 +82,7 @@ p {
   margin-bottom: 7%;
   padding: 6%;
   background-color: #fff;
+  padding-bottom: 5.22%;
 }
 @media (min-width: 767px) {
   .painting {
