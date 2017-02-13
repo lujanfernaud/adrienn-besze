@@ -91,6 +91,7 @@ p {
 }
 .painting__title {
   font-size: 1.44em;
+  font-style: italic;
 }
 .painting__medium {
   font-family: Verdana, sans-serif;
