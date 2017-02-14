@@ -29,6 +29,7 @@ p {
   margin-bottom: 0.666em;
 }
 
+
 /* Header
   ====================================================== */
 
@@ -60,6 +61,7 @@ p {
 
 /* Main
   ====================================================== */
+
 
 .grid-container {
   padding-left: 5%;
@@ -102,3 +104,121 @@ p {
   font-family: Verdana, sans-serif;
   font-size: 0.833em;
 }
+
+
+/* Blueimp's Image Gallery modifications
+  ====================================================== */
+
+
+.blueimp-gallery > .title {
+  max-width: 65%;
+  top: 18px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transition: all 0.2s ease;
+  z-index: 9999999;
+}
+.blueimp-gallery > .prev,
+.blueimp-gallery > .next {
+  width: 80px;
+  height: 80px;
+  font-size: 42px;
+  line-height: 60px;
+  background: none;
+  border: none;
+  transition: all 0.2s ease;
+  z-index: 9999999;
+}
+.blueimp-gallery > .close {
+  height: 34px;
+  left: 15px;
+  right: auto;
+  margin: auto;
+  font-size: 12px;
+  line-height: 1;
+  text-shadow: none;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 9999999;
+  padding: 9px 12px 6px 12px;
+}
+.blueimp-gallery > .btn-close {
+  background: none;
+  opacity: 0.8;
+  color: #FFF;
+  border: none;
+}
+.blueimp-gallery > .btn-close:hover {
+  color: #000;
+  background: #FFF;
+  opacity: 1;
+}
+.blueimp-gallery > .btn-share,
+.blueimp-gallery > .btn-gallery {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #FFF;
+  background: none;
+  opacity: 0.8;
+  z-index: 9999999;
+}
+.blueimp-gallery > .btn-gallery {
+  right: auto;
+  left: 65px;
+}
+.blueimp-gallery > .btn-share:hover,
+.blueimp-gallery > .btn-gallery:hover {
+  color: #000;
+  background: #FFF;
+  opacity: 1;
+}
+.blueimp-gallery-controls > .btn-share,
+.blueimp-gallery-controls > .btn-gallery {
+  display: block;
+  /* Fix z-index issues (controls behind slide element) on Android: */
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+       -o-transform: translateZ(0);
+          transform: translateZ(0);
+}
+.blueimp-gallery > .slides > .slide > .slide-content {
+  margin: auto;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 87%;
+  opacity: 1;
+}
+.blueimp-gallery {
+  background: #0C0404;
+}
+.blueimp-gallery > .indicator > li {
+  width: 10px;
+  height: 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+/* Blueimp's IG: Resize image to always have space on top and bottom */
+
+.blueimp-gallery > .slides > .slide > .slide-content {
+  max-height: 68%;
+}
+.blueimp-gallery > .title {
+  max-width: 40%;
+}
+@media (min-width: 639px) {
+  .blueimp-gallery > .slides > .slide > .slide-content {
+    max-height: 80%;
+  }
+}
+/*@media (max-height: 550px) {
+  .blueimp-gallery > .slides > .slide > .slide-content {
+    max-height: 68%;
+  }
+}*/
