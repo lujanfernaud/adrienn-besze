@@ -124,7 +124,9 @@ a:focus {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.333em;
   text-align: center;
+  opacity: 1;
   transition: all 0.2s ease;
   z-index: 9999999;
 }
