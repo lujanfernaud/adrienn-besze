@@ -132,14 +132,23 @@ a:focus {
 }
 .blueimp-gallery > .prev,
 .blueimp-gallery > .next {
-  width: 80px;
-  height: 80px;
-  font-size: 42px;
+  height: 40px;
+  width: 40px;
   line-height: 60px;
+  font-size: 35px;
   background: none;
   border: none;
   transition: all 0.2s ease;
   z-index: 9999999;
+}
+@media (min-width: 991px) {
+  .blueimp-gallery > .prev,
+  .blueimp-gallery > .next {
+    width: 80px;
+    height: 80px;
+    line-height: 60px;
+    font-size: 42px;
+  }
 }
 .blueimp-gallery > .close {
   height: 34px;
