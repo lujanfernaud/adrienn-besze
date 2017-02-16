@@ -119,7 +119,7 @@ a:focus {
 
 .blueimp-gallery > .title {
   max-width: 65%;
-  top: 18px;
+  top: 15px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -129,6 +129,12 @@ a:focus {
   opacity: 1;
   transition: all 0.2s ease;
   z-index: 9999999;
+}
+@media (min-width: 991px) {
+  .blueimp-gallery > .title {
+    top: 18px;
+    font-size: 1.728em;
+  }
 }
 .blueimp-gallery > .prev,
 .blueimp-gallery > .next {
@@ -151,17 +157,23 @@ a:focus {
   }
 }
 .blueimp-gallery > .close {
-  height: 34px;
+  height: 40px;
+  top: 12px;
   left: 15px;
   right: auto;
   margin: auto;
-  font-size: 12px;
+  padding: 9px 12px 6px 12px;
   line-height: 1;
+  font-size: 17px;
   text-shadow: none;
   text-decoration: none;
   cursor: pointer;
   z-index: 9999999;
-  padding: 9px 12px 6px 12px;
+}
+@media (min-width: 991px) {
+  .blueimp-gallery > .close {
+    font-size: 21px;
+  }
 }
 .blueimp-gallery > .btn-close {
   background: none;
@@ -170,8 +182,6 @@ a:focus {
   border: none;
 }
 .blueimp-gallery > .btn-close:hover {
-  color: #000;
-  background: #FFF;
   opacity: 1;
 }
 .blueimp-gallery > .btn-share,
