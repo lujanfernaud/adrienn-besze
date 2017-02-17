@@ -223,7 +223,7 @@ a:focus {
   opacity: 1;
 }
 .blueimp-gallery {
-  background: #0C0404;
+  background-color: #0C0404;
 }
 .blueimp-gallery > .indicator > li {
   width: 10px;
