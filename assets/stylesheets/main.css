@@ -100,16 +100,15 @@ a:focus {
 }
 .painting__title {
   font-size: 1.44em;
-  font-style: italic;
 }
 .painting__medium {
   font-family: Verdana, sans-serif;
-  font-size: 0.833em;
+  font-size: 0.909em;
 }
 .painting__dimensions {
   margin-bottom: 0;
   font-family: Verdana, sans-serif;
-  font-size: 0.833em;
+  font-size: 0.909em;
 }
 
 
