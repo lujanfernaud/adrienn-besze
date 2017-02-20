@@ -5,6 +5,16 @@
  */
 
 
+/* Variables
+  ====================================================== */
+
+
+$background-color: #921b27;
+$foreground-color: #fffaf8;
+$dark-text-color: #3a0a0f;
+$light-text-color: #fffaf8;
+
+
 /* Initial Settings and Helper Classes
   ====================================================== */
 
@@ -12,7 +22,7 @@
 body {
   font-family: Georgia, serif;
   font-size: 16px;
-  background-color: #921b27;
+  background-color: $background-color;
 }
 @media (min-width: 1199px) {
   body {
@@ -29,11 +39,11 @@ p {
   margin-bottom: 0.666em;
 }
 a {
-  color: #000;
+  color: $dark-text-color;
 }
 a:hover,
 a:focus {
-  color: #000;
+  color: $dark-text-color;
   text-decoration: none;
 }
 
@@ -46,7 +56,7 @@ a:focus {
   width: 100%;
   height: 100%;
   min-height: 100%;
-  background-color: #921b27;
+  background-color: $background-color;
 }
 
 .cover-inner {
@@ -90,7 +100,7 @@ a:focus {
 .painting {
   margin-bottom: 7%;
   padding: 6%;
-  background-color: #fff;
+  background-color: $foreground-color;
   padding-bottom: 5.22%;
 }
 @media (min-width: 767px) {
@@ -193,7 +203,7 @@ a:focus {
 .blueimp-gallery > .btn-close {
   background: none;
   opacity: 0.8;
-  color: #FFF;
+  color: $foreground-color;
   border: none;
 }
 .blueimp-gallery > .btn-close:hover {
@@ -204,7 +214,7 @@ a:focus {
   position: absolute;
   top: 15px;
   right: 15px;
-  color: #FFF;
+  color: $foreground-color;
   background: none;
   opacity: 0.8;
   z-index: 9999999;
@@ -216,7 +226,7 @@ a:focus {
 .blueimp-gallery > .btn-share:hover,
 .blueimp-gallery > .btn-gallery:hover {
   color: #000;
-  background: #FFF;
+  background: $foreground-color;
   opacity: 1;
 }
 .blueimp-gallery-controls > .btn-share,

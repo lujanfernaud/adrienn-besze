@@ -6101,6 +6101,8 @@ body:last-child .blueimp-gallery-playing > .play-pause {
  * Author: Lujan Fernaud
  * Typographic Scale: 1.2 - http://www.modularscale.com/?20&px&1.2&web&text
  */
+/* Variables
+  ====================================================== */
 /* Initial Settings and Helper Classes
   ====================================================== */
 body {
@@ -6120,11 +6122,11 @@ p {
   margin-bottom: 0.666em; }
 
 a {
-  color: #000; }
+  color: #3a0a0f; }
 
 a:hover,
 a:focus {
-  color: #000;
+  color: #3a0a0f;
   text-decoration: none; }
 
 /* Header
@@ -6166,7 +6168,7 @@ a:focus {
 .painting {
   margin-bottom: 7%;
   padding: 6%;
-  background-color: #fff;
+  background-color: #fffaf8;
   padding-bottom: 5.22%; }
 
 @media (min-width: 767px) {
@@ -6258,7 +6260,7 @@ a:focus {
 .blueimp-gallery > .btn-close {
   background: none;
   opacity: 0.8;
-  color: #FFF;
+  color: #fffaf8;
   border: none; }
 
 .blueimp-gallery > .btn-close:hover {
@@ -6269,7 +6271,7 @@ a:focus {
   position: absolute;
   top: 15px;
   right: 15px;
-  color: #FFF;
+  color: #fffaf8;
   background: none;
   opacity: 0.8;
   z-index: 9999999; }
@@ -6281,7 +6283,7 @@ a:focus {
 .blueimp-gallery > .btn-share:hover,
 .blueimp-gallery > .btn-gallery:hover {
   color: #000;
-  background: #FFF;
+  background: #fffaf8;
   opacity: 1; }
 
 .blueimp-gallery-controls > .btn-share,
