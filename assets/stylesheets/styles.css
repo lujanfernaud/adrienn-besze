@@ -6169,7 +6169,8 @@ a:focus {
   margin-bottom: 7%;
   padding: 6%;
   background-color: #fffaf8;
-  padding-bottom: 5.22%; }
+  padding-bottom: 5.22%;
+  border-radius: 3px; }
 
 @media (min-width: 767px) {
   .painting {
@@ -6197,6 +6198,7 @@ a:focus {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.333em;
+  color: #fffaf8;
   text-align: center;
   opacity: 1;
   transition: all 0.2s ease;
@@ -6210,8 +6212,9 @@ a:focus {
 .blueimp-gallery > .next {
   height: 55px;
   width: 40px;
-  line-height: 50px;
   font-size: 3em;
+  color: #fffaf8;
+  line-height: 50px;
   background: none;
   border: none;
   opacity: 0.6;
@@ -6246,6 +6249,7 @@ a:focus {
   font-family: "Lucida Grande","Lucida Sans Unicode", Arial, sans-serif;
   font-size: 1.444em;
   font-weight: 400;
+  color: #fffaf8;
   line-height: 1;
   text-shadow: none;
   text-decoration: none;
