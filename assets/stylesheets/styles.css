@@ -6176,6 +6176,10 @@ a:focus {
   .painting {
     margin-bottom: 30px;
     /* Same as gutter between paintings */ } }
+@media (min-width: 1199px) {
+  .painting {
+    margin-bottom: 34px;
+    /* Same as gutter between paintings */ } }
 .painting__title {
   font-size: 1.44em; }
 
@@ -6188,6 +6192,18 @@ a:focus {
   font-family: Verdana, sans-serif;
   font-size: 0.909em; }
 
+/* Bootstrap modifications
+  ====================================================== */
+/* Increase gutter to 34px */
+@media (min-width: 1199px) {
+  .row {
+    margin-right: -17px;
+    margin-left: -17px; }
+
+  [class^="col-"],
+  [class^=" col-"] {
+    padding-right: 17px;
+    padding-left: 17px; } }
 /* Blueimp's Image Gallery modifications
   ====================================================== */
 .blueimp-gallery > .title {
